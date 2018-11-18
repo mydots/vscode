@@ -1,0 +1,68 @@
+{
+    "editor.renderWhitespace": "none",
+    "go.autocompleteUnimportedPackages": true,
+    "editor.lineNumbers": "relative",
+    "vim.leader": ",",
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                ":"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>", "l"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.toggleRenderWhitespace"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>", "|"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.splitEditor"
+                }
+            ]
+        },
+        {
+            "before": [
+                "t"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        }
+    ]
+}
