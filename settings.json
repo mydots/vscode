@@ -64,5 +64,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "files.exclude": {
+        ".*": true,
+        "node_modules/": true,
+        "tmp/": true
+    }
 }
