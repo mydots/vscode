@@ -1,14 +1,58 @@
 {
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
     "editor.renderWhitespace": "none",
     "go.autocompleteUnimportedPackages": true,
     "editor.lineNumbers": "relative",
-    "vim.leader": ",",
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.showSlider": "always",
+    "editor.multiCursorModifier": "alt",
+    "editor.renderLineHighlight": "all",
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "editor.fontSize": 14,
+    "emmet.excludeLanguages": [],
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "markdown": "html",
+      "HTML (Eex)": "html"
+    },
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.showSuggestionsAsSnippets": true,
+    "eslint.packageManager": "yarn",
+    "explorer.decorations.badges": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {"*.json":"json"},
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        ".*": true,
+        "**node_modules/": true,
+        "**bower_components/": true,
+        "tmp/": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "go.testFlags": ["-count=1"],
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useBundler": true,
+    "search.exclude": {
+        ".*": true,
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "search.smartCase": true,
+    "terminal.integrated.shellArgs.osx": [ "-l" ],
+    "typescript.implementationsCodeLens.enabled": true,
     "vim.easymotion": true,
-    "vim.sneak": true,
     "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.sneak": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -65,9 +109,13 @@
             ]
         }
     ],
-    "files.exclude": {
-        ".*": true,
-        "node_modules/": true,
-        "tmp/": true
-    }
+    "window.title": "${activeEditorMedium}",
+    "window.zoomLevel": 0,
+    "workbench.commandPalette.history": 10,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.showTabs": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.startupEditor": "none"
 }
