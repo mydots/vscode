@@ -26,6 +26,7 @@
     "files.associations": {"*.json":"json"},
     "files.autoSave": "onFocusChange",
     "files.exclude": {
+        "**/.terraform": true,
         "**/*.pyc": true,
         "**/__pycache__/": true,
         "**bower_components/": true,
@@ -50,7 +51,8 @@
     "ruby.intellisense": "rubyLocate",
     "ruby.useBundler": true,
     "search.exclude": {
-				".git": true,
+        ".git": true,
+        "**/.terraform": true,
         "**/__pycache__": true,
         "**/bower_components": true,
         "**/node_modules": true,
