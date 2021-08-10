@@ -23,7 +23,10 @@
     "eslint.packageManager": "yarn",
     "explorer.decorations.badges": false,
     "explorer.confirmDragAndDrop": false,
-    "files.associations": {"*.json":"json"},
+    "files.associations": {
+        "*.json": "json",
+        "*.go2": "go"
+    },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/.terraform": true,
