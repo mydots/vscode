@@ -9,6 +9,7 @@
     "editor.multiCursorModifier": "alt",
     "editor.renderLineHighlight": "all",
     "editor.snippetSuggestions": "top",
+    "editor.stickyScroll.enabled": true,
     "editor.tabCompletion": "on",
     "editor.tabSize": 2,
     "editor.fontSize": 14,
